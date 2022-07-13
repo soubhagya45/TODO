@@ -1,0 +1,53 @@
+.container{
+    width: 300px;
+    margin: 0 auto;
+    
+}
+.head{
+    margin-left: 100px;
+}
+
+.todo-form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.todo-form input{
+    width: 100%;
+}
+
+.todo-list > li {
+    margin-top: 5px;
+    list-style: none;
+}
+
+.todo-list > li> div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.todo-list button{
+  margin-left: 5px ; 
+}
+
+.todo-complete > li {
+    margin-top: 5px;
+    list-style: none;
+}
+
+.todo-complete > li> div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.todo-complete button{
+  margin-left: 5px ; 
+}
+
+
